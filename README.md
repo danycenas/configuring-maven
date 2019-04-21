@@ -9,7 +9,7 @@ La siguiente guia nos permitirá configurar Maven correctamente.
 
 Configurar la variable de entorno JAVA_HOME.
 
-![picture](https://danycenas.github.io/configuring-mavenl/blob/master/img/1.png)
+![picture](./img/1.png)
 ![picture](https://danycenas.github.io/configuring-mavenl/blob/master/img/2.png)
 ![picture](https://danycenas.github.io/configuring-mavenl/blob/master/img/3.png)
 ![picture](https://danycenas.github.io/configuring-mavenl/blob/master/img/4.png)
