@@ -1,4 +1,4 @@
-La siguiente guia nos permitirá configurar Maven correctamente.
+La siguiente guia nos permite configurar Apache Maven correctamente.
 
 # Requisitos
 
@@ -7,7 +7,7 @@ La siguiente guia nos permitirá configurar Maven correctamente.
 
 # Configurar JAVA_HOME
 
-Seguir los siguientes pasos.
+Para configurar la variable de entorno JAVA_HOME debemos de instalar el JDK.
 
 ![picture](./img/1.png)
 
@@ -21,6 +21,8 @@ Seguir los siguientes pasos.
 
 ![picture](./img/6.png)
 
+Luego crear la variable de entorno con los siguientes pasos.
+
 ![picture](./img/7.png)
 
 ![picture](./img/8.png)
@@ -31,12 +33,14 @@ Seguir los siguientes pasos.
 
 ![picture](./img/11.png)
 
+Finalmente editar el PATH del sistema y añadir la variable creada.
+
 ![picture](./img/12.png)
 
 ![picture](./img/13.png)
 
 
-Verificar el funcionamiento de la variable JAVA_HOME
+Verificar el funcionamiento de la variable JAVA_HOME.
 ```bash
 >java -version
 java version "1.8.0_211"
