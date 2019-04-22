@@ -5,9 +5,9 @@ La siguiente guia nos permitirá configurar Maven correctamente.
 - Java SE Development Kit 8 [[Download]](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html)
 - Apache Maven [[Download]](https://maven.apache.org/download.cgi)
 
-# Empezemos
+# Configurar JAVA_HOME
 
-Configurar la variable de entorno JAVA_HOME.
+Seguir los siguientes pasos.
 
 ![picture](./img/1.png)
 
@@ -35,9 +35,8 @@ Configurar la variable de entorno JAVA_HOME.
 
 ![picture](./img/13.png)
 
-![picture](./img/14.png)
 
-Verificar el funcionamiento de la variable
+Verificar el funcionamiento de la variable JAVA_HOME
 ```bash
 >java -version
 java version "1.8.0_211"
@@ -48,9 +47,9 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 javac 1.8.0_211
 ```
 
-# Ahora vamos a configurar Apache Maven
+# Configurar M2_HOME
 
-Primero descargar y descomprimir.
+Primero descargar y descomprimir según se indica.
 
 ![picture](./img/15.png)
 
@@ -60,8 +59,9 @@ Luego crear la variable de entorno M2_HOME y añadirla al PATH del sistema.
 
 ![picture](./img/17.png)
 
+![picture](./img/18.png)
 
-Verificar el funcionamiento de la variable
+Verificar el funcionamiento de la variable M2_HOME
 ```bash
 >mvn -version
 Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T12:00:29-07:00)
