@@ -1,4 +1,4 @@
-La siguiente guia nos permite configurar Apache Maven correctamente.
+La siguiente guia nos permite configurar Apache Maven en Windows 10.
 
 # Requisitos
 
@@ -7,7 +7,7 @@ La siguiente guia nos permite configurar Apache Maven correctamente.
 
 # Configurar JAVA_HOME
 
-Para configurar la variable de entorno JAVA_HOME debemos de instalar el JDK.
+Instalar el JDK según se indica.
 
 ![picture](./img/1.png)
 
@@ -21,7 +21,7 @@ Para configurar la variable de entorno JAVA_HOME debemos de instalar el JDK.
 
 ![picture](./img/6.png)
 
-Luego crear la variable de entorno con los siguientes pasos.
+Una vez completada la instalación crear la variable de entorno de la siguiente manera.
 
 ![picture](./img/7.png)
 
@@ -53,7 +53,7 @@ javac 1.8.0_211
 
 # Configurar M2_HOME
 
-Primero descargar y descomprimir según se indica.
+Descargar y descomprimir en la ruta específicada.
 
 ![picture](./img/15.png)
 
