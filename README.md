@@ -1,13 +1,11 @@
-La siguiente guia nos permite configurar Apache Maven.
-
 ## Instalación y configuración en Windows
 
-#### Requisitos
+### Requisitos
 
 - Java SE Development Kit 8 - Windows x64 [[Download]](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html)
 - Apache Maven [[Download]](https://maven.apache.org/download.cgi)
 
-#### Configurar JAVA_HOME
+### Configurar JAVA_HOME
 
 Instalar el JDK según se indica.
 
@@ -53,7 +51,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 javac 1.8.0_211
 ```
 
-#### Configurar M2_HOME
+### Configurar M2_HOME
 
 Descargar y descomprimir en la ruta específicada.
 
@@ -79,7 +77,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 ## Instalación y configuración en Ubuntu
 
-#### Configurar JAVA_HOME
+### Configurar JAVA_HOME
 ```bash
 sudo apt update
 sudo apt install openjdk-8-jdk -y
@@ -101,7 +99,7 @@ javac -version
 javac 1.8.0_191
 ```
 
-#### Configurar M2_HOME
+### Configurar M2_HOME
 ```bash
 wget https://www-us.apache.org/dist/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz -P /tmp
 sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
