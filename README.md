@@ -15,8 +15,6 @@ Instalar el JDK según se indica.
 
 ![picture](./img/3.png)
 
-![picture](./img/4.png)
-
 ![picture](./img/5.png)
 
 ![picture](./img/6.png)
